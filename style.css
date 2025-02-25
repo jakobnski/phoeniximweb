@@ -44,7 +44,7 @@ footer {
     color: #fff; /* Textfarbe im Fußbereich */
     text-align: center; /* Text zentrieren */
     padding: 1rem; /* Innenabstand */
-    position: fixed; /* Fußbereich am unteren Bildschirmrand fixieren */
+    position: relative; /* Fußbereich am unteren Bildschirmrand fixieren */
     width: 100%;
     bottom: 0; /* Am unteren Rand des Fensters platzieren */
 }
