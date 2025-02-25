@@ -12,10 +12,10 @@ function showDownloadMessage() {
 
 // Ereignis hinzufügen, das die Willkommensnachricht anzeigt, wenn die Seite geladen wird
 window.onload = function() {
-    showWelcomeMessage();
+    //showWelcomeMessage();
     
     // Überprüfen, ob die Seite die Downloadseite ist, und die entsprechende Nachricht anzeigen
-    if (window.location.pathname.includes('downloads.html')) {
-        showDownloadMessage();
-    }
+    //if (window.location.pathname.includes('downloads.html')) {
+    //    showDownloadMessage();
+   // } 
 };
