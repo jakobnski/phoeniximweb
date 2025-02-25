@@ -16,6 +16,7 @@ header {
 
 /* Stile für die Navigation */
 nav {
+    font-size: medium;
     display: flex;
     justify-content: center; /* Navigation horizontal zentrieren */
     background-color: #003366; /* Hintergrundfarbe der Navigation */
