@@ -1,0 +1,50 @@
+/* Stile für den gesamten Körper der Webseite */
+body {
+    font-family: Arial, sans-serif; /* Schriftart */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Hintergrundfarbe */
+}
+
+/* Stile für den Header (Kopfbereich) */
+header {
+    background-color: #0056b3; /* Hintergrundfarbe des Headers */
+    color: #fff; /* Textfarbe im Header */
+    padding: 1rem; /* Innenabstand */
+    text-align: center; /* Text zentrieren */
+}
+
+/* Stile für die Navigation */
+nav {
+    display: flex;
+    justify-content: center; /* Navigation horizontal zentrieren */
+    background-color: #003366; /* Hintergrundfarbe der Navigation */
+}
+
+/* Stile für die Links in der Navigation */
+nav a {
+    color: #fff; /* Textfarbe der Links */
+    padding: 1rem; /* Innenabstand */
+    text-decoration: none; /* Keine Unterstreichung */
+}
+
+/* Stile für die Links in der Navigation, wenn die Maus darüber fährt */
+nav a:hover {
+    background-color: #0056b3; /* Hintergrundfarbe beim Hover */
+}
+
+/* Stile für den Hauptbereich der Webseite */
+main {
+    padding: 2rem; /* Innenabstand */
+}
+
+/* Stile für den Fußbereich der Webseite */
+footer {
+    background-color: #003366; /* Hintergrundfarbe des Fußbereichs */
+    color: #fff; /* Textfarbe im Fußbereich */
+    text-align: center; /* Text zentrieren */
+    padding: 1rem; /* Innenabstand */
+    position: fixed; /* Fußbereich am unteren Bildschirmrand fixieren */
+    width: 100%;
+    bottom: 0; /* Am unteren Rand des Fensters platzieren */
+}
