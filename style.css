@@ -10,6 +10,8 @@ body {
 header {
     /*background-color: #0056b3; /* Hintergrundfarbe des Headers */
     background: url(images/IMG_1474.JPG) no-repeat;
+    width:1000px;
+    height:200px;
     color: #fff; /* Textfarbe im Header */
     padding: 1rem; /* Innenabstand */
     text-align: center; /* Text zentrieren */
