@@ -41,6 +41,7 @@ main {
 /* Stile für den Fußbereich der Webseite */
 footer {
     background-color: #003366; /* Hintergrundfarbe des Fußbereichs */
+    font-size: medium;
     color: #fff; /* Textfarbe im Fußbereich */
     text-align: center; /* Text zentrieren */
     padding: 1rem; /* Innenabstand */
