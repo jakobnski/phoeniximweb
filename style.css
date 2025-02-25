@@ -9,7 +9,7 @@ body {
 /* Stile für den Header (Kopfbereich) */
 header {
     /*background-color: #0056b3; /* Hintergrundfarbe des Headers */
-    background: url(images/IMG_1474.JPG) repeat;
+    background: url(images/IMG_1474.JPG) no-repeat;
     color: #fff; /* Textfarbe im Header */
     padding: 1rem; /* Innenabstand */
     text-align: center; /* Text zentrieren */
