@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Förderverein</title>
+    <link rel="stylesheet" href="style.css"> <!-- Verlinkung zur CSS-Datei -->
+</head>
+<body>
+    <header>
+        <h1>Förderverein</h1>
+    </header>
+    <nav>
+        <!-- Navigation mit Links zu den verschiedenen Unterseiten -->
+        <a href="index.html">Startseite</a>
+        <a href="ueber-uns.html">Über uns</a>
+        <a href="downloads.html">Downloadbereich</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutzerklärung</a>
+        <a href="foerderverein.html">Förderverein</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Über unseren Förderverein</h2>
+            <p>Der Förderverein unterstützt unsere Gruppenarbeit und Aktivitäten durch finanzielle und materielle Hilfe. Er ermöglicht es uns, vielfältige Angebote für die Kinder und Jugendlichen zu schaffen und besondere Projekte zu realisieren.</p>
+        </section>
+        <section>
+            <h2>Mitglied werden</h2>
+            <p>Wenn Sie den Förderverein unterstützen möchten, können Sie Mitglied werden. Der Jahresbeitrag beträgt 50 Euro. Mit Ihrer Mitgliedschaft tragen Sie dazu bei, dass wir weiterhin großartige Arbeit leisten können.</p>
+        </section>
+        <section>
+            <h2>Spenden</h2>
+            <p>Sie können uns auch durch eine einmalige Spende unterstützen. Jeder Beitrag hilft! Unsere Bankverbindung lautet:</p>
+            <p>Bank: Musterbank<br>
+            IBAN: DE12345678901234567890<br>
+            BIC: ABCDEF12XXX</p>
+        </section>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Förderverein Musterstadt e.V.<br>
+            Musterstraße 1<br>
+            12345 Musterstadt<br>
+            E-Mail: <a href="mailto:foerderverein@example.com">foerderverein@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Meine Webseite</p> <!-- Copyright-Information -->
+    </footer>
+    <script src="script.js"></script> <!-- Verlinkung zur JavaScript-Datei -->
+</body>
+</html>
