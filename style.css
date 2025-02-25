@@ -8,7 +8,7 @@ body {
 
 /* Stile für den Header (Kopfbereich) */
 header {
-    background-color: #0056b3; /* Hintergrundfarbe des Headers */
+    /*background-color: #0056b3; /* Hintergrundfarbe des Headers */
     background: url(images/) repeat;
     color: #fff; /* Textfarbe im Header */
     padding: 1rem; /* Innenabstand */
