@@ -16,7 +16,6 @@ header {
 
 /* Stile für die Navigation */
 nav {
-    font-size: medium;
     display: flex;
     justify-content: center; /* Navigation horizontal zentrieren */
     background-color: #003366; /* Hintergrundfarbe der Navigation */
@@ -43,7 +42,6 @@ main {
 footer {
     background-color: #003366; /* Hintergrundfarbe des Fußbereichs */
     color: #fff; /* Textfarbe im Fußbereich */
-    font-size: xx-small;
     text-align: center; /* Text zentrieren */
     padding: 1rem; /* Innenabstand */
     position: fixed; /* Fußbereich am unteren Bildschirmrand fixieren */
