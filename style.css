@@ -46,6 +46,6 @@ footer {
     text-align: center; /* Text zentrieren */
     padding: 1rem; /* Innenabstand */
     position: relative; /* Fußbereich am unteren Bildschirmrand fixieren */
-    width: 70%;
+    width: 100%;
     bottom: 0; /* Am unteren Rand des Fensters platzieren */
 }
