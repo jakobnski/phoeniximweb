@@ -1,14 +1,14 @@
 // JavaScript-Code für die Webseite
 
 // Funktion, um eine Willkommensnachricht anzuzeigen
-function showWelcomeMessage() {
+/*function showWelcomeMessage() {
     alert('Willkommen auf meiner Webseite!');
 }
 
 // Funktion, um auf der Downloadseite eine Nachricht anzuzeigen
 function showDownloadMessage() {
     alert('Vielen Dank für das Herunterladen unserer Dateien!');
-}
+} */
 
 // Ereignis hinzufügen, das die Willkommensnachricht anzeigt, wenn die Seite geladen wird
 window.onload = function() {
