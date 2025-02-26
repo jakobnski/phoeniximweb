@@ -1,8 +1,8 @@
 /* Stile für den gesamten Körper der Webseite */
 body {
     font-family: Arial, sans-serif; /* Schriftart */
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Kein Außenabstand */
+    padding: 0; /* Kein Innenabstand */
     background-color: #f4f4f4; /* Hintergrundfarbe */
 }
 
@@ -20,9 +20,9 @@ header {
 
 /* Stile für die Navigation */
 nav {
-    display: flex;
+    display: flex; /* Flexbox Layout */
     justify-content: center; /* Navigation horizontal zentrieren */
-    background-color: #810a1a; /* Hntergrundfarbe der Navigation */
+    background-color: #810a1a; /* Hintergrundfarbe der Navigation */
 }
 
 /* Stile für die Links in der Navigation */
@@ -54,97 +54,103 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
-  width: 100%;
-  max-height: 350px; /* Maximalhöhe für den Header festlegen */
+  position: relative; /* Position relativ zur Box */
+  width: 100%; /* Breite 100% */
+  height: auto; /* Höhe automatisch */
+  object-fit: contain; /* Bilder vollständig in die Box einpassen */
   overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
+  max-height: inherit; /* Maximale Höhe für den Header festlegen */
 }
 
 /* Overlay container */
 .overlay-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  position: relative; /* Position relativ zur Box */
+  width: 100%; /* Breite 100% */
+  height: auto; /* Höhe automatisch */
+  max-height: 350px; /* Maximalhöhe für den Header festlegen */
+  object-fit: contain; /* Bilder vollständig in die Box einpassen */
+  overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
 }
 
 /* Bilder anpassen, um die Box vollständig auszufüllen */
 .slideshow-container img {
   object-fit: contain; /* Bilder vollständig in die Box einpassen */
-  position: relative;
-  object-position: center;
-  overflow: hidden;
-  max-height: inherit;
+  position: relative; /* Position relativ zur Box */
+  object-position: center; /* Bilder zentrieren */
+  overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
+  max-height: inherit; /* Maximale Höhe für den Header festlegen */
 }
 
 /* Verbleibender CSS-Code bleibt unverändert */
 .mySlides {
-  display: none;
+  display: none; /* Bilder standardmäßig nicht anzeigen */
+  max-height: inherit; /* Maximale Höhe für den Header festlegen */
 }
 
 .navigation .prev, .navigation .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
+  cursor: pointer; /* Zeiger ändern bei Hover */
+  position: absolute; /* Absolute Positionierung */
+  top: 50%; /* Vertikal zentrieren */
+  width: auto; /* Breite automatisch */
+  padding: 16px; /* Innenabstand */
+  margin-top: -22px; /* Negativer Außenabstand für vertikale Zentrierung */
+  color: #810a1a; /* Textfarbe weiß */
+  font-weight: bold; /* Fettschrift */
+  font-size: 18px; /* Schriftgröße */
+  transition: 0.6s ease; /* Übergangseffekt */
+  user-select: none; /* Text nicht auswählbar */
+  background-color: #fffdfd6b;
 }
 
 .navigation .prev {
-  left: 0;
-  border-radius: 3px 0 0 3px;
+  left: 0; /* Links ausrichten */
+  border-radius: 3px 0 0 3px; /* Abgerundete Ecken */
 }
 
 .navigation .next {
-  right: 0;
-  border-radius: 0 3px 3px 0;
+  right: 0; /* Rechts ausrichten */
+  border-radius: 0 3px 3px 0; /* Abgerundete Ecken */
 }
 
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  cursor: pointer; /* Zeiger ändern bei Hover */
+  height: 15px; /* Höhe */
+  width: 15px; /* Breite */
+  margin: 0 2px; /* Außenabstand */
+  background-color: #bbb; /* Hintergrundfarbe */
+  border-radius: 50%; /* Runde Form */
+  display: inline-block; /* Inline-Block-Element */
+  transition: background-color 0.6s ease; /* Übergangseffekt */
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #717171; /* Hintergrundfarbe bei Aktivierung oder Hover */
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+  -webkit-animation-name: fade; /* Name der Webkit-Animation */
+  -webkit-animation-duration: 1.5s; /* Dauer der Webkit-Animation */
+  animation-name: fade; /* Name der Animation */
+  animation-duration: 1.5s; /* Dauer der Animation */
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .4} /* Start-Transparenz */
+  to {opacity: 1} /* End-Transparenz */
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .4} /* Start-Transparenz */
+  to {opacity: 1} /* End-Transparenz */
 }
 
-/* Style for the text in the header */
+/* Style für den Text in der Kopfzeile */
 .text-overlay {
-  color: #ffffff;
-  background-color: #000000a7;
-  font-size: 24px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  padding: 10px 0;
+  color: #ffffff; /* Textfarbe */
+  font-size: 24px; /* Schriftgröße */
+  width: 100%; /* Breite 100% */
+  text-align: center; /* Text zentrieren */
+  position:absolute; /* Absolute Positionierung */
+  bottom: 0%; /* Am unteren Rand der Box platzieren */
+  background-color: #002f568b /* Hintergrundfarbe mit Transparenz */
 }
