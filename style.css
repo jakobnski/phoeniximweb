@@ -54,91 +54,85 @@ footer {
 
 /* Slideshow container */
 .slideshow-container {
-    position: relative;
-    display: block;
-    max-width: 100%;
-    max-height: 300px;
-    margin: auto;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
-  /* Add a pointer when hovering over the arrows */
-  .prev, .next {
-    cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  max-height: 500px; /* Maximalhöhe für den Header festlegen */
+  overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
+}
 
-  .prev {
-    left: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* Dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  /* Style for the text in the header */
+/* Bilder anpassen, um die Box vollständig auszufüllen */
+.slideshow-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Bilder vollständig in die Box einpassen */
+}
+
+/* Verbleibender CSS-Code bleibt unverändert */
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Style for the text in the header */
 .text {
-    color: white;
-    font-size: 24px;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
-    padding: 10px 0;
-  }
-    
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  padding: 10px 0;
+}
