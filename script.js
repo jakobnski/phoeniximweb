@@ -1,42 +1,26 @@
-document.addEventListener("DOMContentLoaded", () => {
-    let slideIndex = 0;
-    const slides = document.querySelectorAll(".slides img");
-    const dots = document.querySelectorAll(".dot");
-    const prev = document.querySelector(".prev");
-    const next = document.querySelector(".next");
+let slideIndex = 1;
+showSlides(slideIndex);
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.remove("active");
-            dots[i].classList.remove("active");
-            if (i === index) {
-                slide.classList.add("active");
-                dots[i].classList.add("active");
-            }
-        });
-    }
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-    function nextSlide() {
-        slideIndex = (slideIndex + 1) % slides.length;
-        showSlide(slideIndex);
-    }
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-    function prevSlide() {
-        slideIndex = (slideIndex - 1 + slides.length) % slides.length;
-        showSlide(slideIndex);
-    }
-
-    dots.forEach((dot, i) => {
-        dot.addEventListener("click", () => {
-            slideIndex = i;
-            showSlide(slideIndex);
-        });
-    });
-
-    prev.addEventListener("click", prevSlide);
-    next.addEventListener("click", nextSlide);
-
-    setInterval(nextSlide, 10000); // Automatischer Wechsel alle 3 Sekunden
-
-    showSlide(slideIndex); // Zeige das erste Bild beim Laden der Seite
-});
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
