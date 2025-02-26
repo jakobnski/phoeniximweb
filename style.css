@@ -140,10 +140,11 @@ footer {
 
 /* Style for the text in the header */
 .text-overlay {
-  color: white;
+  color: #ffffff;
+  background-color: #000000a7;
   font-size: 24px;
   position: absolute;
-  bottom: 20px;
+  top: 50%;
   width: 100%;
   text-align: center;
   padding: 10px 0;
