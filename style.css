@@ -55,7 +55,7 @@ footer {
 .slider {
     position: relative;
     width: 100%;
-    max-width: auto;
+    /*max-width: auto;*/
     margin: auto;
     overflow: hidden;
 }
