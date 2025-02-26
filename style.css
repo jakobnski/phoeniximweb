@@ -61,7 +61,7 @@ footer {
 }
 
 .slides img{
-    width: auto;
+    width:fit-content;
     display: none;
 }
 
