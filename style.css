@@ -22,7 +22,7 @@ header {
 nav {
     display: flex;
     justify-content: center; /* Navigation horizontal zentrieren */
-    background-color: #730817; /* Hintergrundfarbe der Navigation */
+    background-color: #730817; /* Hntergrundfarbe der Navigation */
 }
 
 /* Stile für die Links in der Navigation */
