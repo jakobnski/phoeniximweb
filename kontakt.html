@@ -8,8 +8,38 @@
 </head>
 <body>
     <header>
-        <h1>Kontakt</h1>
-    </header>
+        <div class="overlay-container">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/Bild 1.png">
+                    <div class="text-overlay">
+                        Stock 1
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/Bild 2.png">
+                    <div class="text-overlay">
+                        Stock 2
+                    </div>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/Bild 3.png">
+                    <div class="text-overlay">
+                        Stock 3
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>                 
+</header>
     <nav>
         <!-- Navigation mit Links zu den verschiedenen Unterseiten -->
         <a href="index.html">Startseite</a>
