@@ -71,7 +71,7 @@ footer {
 .slideshow-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Bilder vollständig in die Box einpassen */
+  object-fit: contain; /* Bilder vollständig in die Box einpassen */
   align-content: center;
   overflow: hidden;
   max-height:inherit;
