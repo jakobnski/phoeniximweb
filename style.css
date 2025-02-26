@@ -25,22 +25,6 @@ nav {
     background-color: #810a1a; /* Hntergrundfarbe der Navigation */
 }
 
-navblue {
-    display: flex;
-    justify-content: center; /* Navigation horizontal zentrieren */
-    background-color: #003056; /* Hntergrundfarbe der Navigation */
-}
-
-navblue a{
-    color: #ffffff; /* Textfarbe der Links */
-    padding: 1rem; /* Innenabstand */
-    text-decoration: none;
-}
-
-navblue a:hover {
-    background-color: #730817; /* Hintergrundfarbe beim Hover */
-}
-
 /* Stile für die Links in der Navigation */
 nav a {
     color: #ffffff; /* Textfarbe der Links */
