@@ -10,9 +10,9 @@ body {
 header {
     background-color: #003056; /* Hintergrundfarbe des Headers */
     /*background-image: url(images/IMG_1474.JPG) no-repeat;
-    background-size: auto;*/
+    background-size: auto;
     width:1000px;
-    height:200px;
+    height:200px;*/
     color: #ffffff; /* Textfarbe im Header */
     padding: 1rem; /* Innenabstand */
     text-align: center; /* Text zentrieren */
