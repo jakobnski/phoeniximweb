@@ -72,6 +72,7 @@ footer {
   width: 100%;
   height: 100%;
   object-fit: cover; /* Bilder vollständig in die Box einpassen */
+  overflow: hidden;
 }
 
 /* Verbleibender CSS-Code bleibt unverändert */
