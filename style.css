@@ -37,7 +37,7 @@ navblue a{
     text-decoration: none;
 }
 
-nav a:hover {
+navblue a:hover {
     background-color: #730817; /* Hintergrundfarbe beim Hover */
 }
 
