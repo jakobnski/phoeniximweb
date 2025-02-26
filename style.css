@@ -8,12 +8,12 @@ body {
 
 /* Stile für den Header (Kopfbereich) */
 header {
-    background-color: #0056b3; /* Hintergrundfarbe des Headers */
+    background-color: #003056; /* Hintergrundfarbe des Headers */
     /*background-image: url(images/IMG_1474.JPG) no-repeat;
     background-size: auto;*/
     width:1000px;
     height:200px;
-    color: #fff; /* Textfarbe im Header */
+    color: #ffffff; /* Textfarbe im Header */
     padding: 1rem; /* Innenabstand */
     text-align: center; /* Text zentrieren */
 } 
@@ -22,19 +22,19 @@ header {
 nav {
     display: flex;
     justify-content: center; /* Navigation horizontal zentrieren */
-    background-color: #003366; /* Hintergrundfarbe der Navigation */
+    background-color: #810a1a; /* Hintergrundfarbe der Navigation */
 }
 
 /* Stile für die Links in der Navigation */
 nav a {
-    color: #fff; /* Textfarbe der Links */
+    color: #ffffff; /* Textfarbe der Links */
     padding: 1rem; /* Innenabstand */
     text-decoration: none; /* Keine Unterstreichung */
 }
 
 /* Stile für die Links in der Navigation, wenn die Maus darüber fährt */
 nav a:hover {
-    background-color: #0056b3; /* Hintergrundfarbe beim Hover */
+    background-color: #810a1ac4; /* Hintergrundfarbe beim Hover */
 }
 
 /* Stile für den Hauptbereich der Webseite */
@@ -44,7 +44,7 @@ main {
 
 /* Stile für den Fußbereich der Webseite */
 footer {
-    background-color: #003366; /* Hintergrundfarbe des Fußbereichs */
+    background-color: #003056; /* Hintergrundfarbe des Fußbereichs */
     font-size: medium;
     color: #fff; /* Textfarbe im Fußbereich */
     text-align: center; /* Text zentrieren */
