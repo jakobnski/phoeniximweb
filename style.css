@@ -53,12 +53,11 @@ footer {
 }
 
 .slider {
-    position: relative;
-    width: auto;
+    position: center;
     max-width:max-content;
     max-height: 100px;
+    width: auto;
     margin: auto;
-    object-position: center;
     object-fit: contain;
     overflow: hidden;
 }
