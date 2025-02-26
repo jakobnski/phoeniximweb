@@ -8,27 +8,31 @@
 </head>
 <body>
     <header>
-            <div class="slideshow-container">
-              <div class="mySlides fade">
-                <img src="images/Bild 1.png" style="width:100%">
-                <div class="text">Hier ist dein Header-Text</div>
+            <div class="overlay-container">
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="img1.jpg">
+                </div>
+                <div class="mySlides fade">
+                  <img src="img2.jpg">
+                </div>
+                <div class="mySlides fade">
+                  <img src="img3.jpg">
+                </div>
               </div>
-              <div class="mySlides fade">
-                <img src="images/Bild 2.png" style="width:100%">
-                <div class="text">Hier ist dein Header-Text</div>
+              <div class="navigation">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
               </div>
-              <div class="mySlides fade">
-                <img src="images/Bild 3.png" style="width:100%">
-                <div class="text">Hier ist dein Header-Text</div>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
               </div>
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-            </div>         
+            <div class="text-overlay">
+              Hier ist dein Header-Text
+            </div>                  
     </header>
     <nav>
         <!-- Navigation mit Links zu den verschiedenen Unterseiten -->

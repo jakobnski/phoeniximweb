@@ -55,18 +55,23 @@ footer {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  max-width: 100%;
-  margin: auto;
+  width: 100%;
   max-height: 500px; /* Maximalhöhe für den Header festlegen */
   overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
+}
+
+/* Overlay container */
+.overlay-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 /* Bilder anpassen, um die Box vollständig auszufüllen */
 .slideshow-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  display: inline-block; /* Bilder vollständig in die Box einpassen */
+  object-fit: cover; /* Bilder vollständig in die Box einpassen */
 }
 
 /* Verbleibender CSS-Code bleibt unverändert */
@@ -74,7 +79,7 @@ footer {
   display: none;
 }
 
-.prev, .next {
+.navigation .prev, .navigation .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -85,13 +90,17 @@ footer {
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
-.next {
-  right: 0;
+.navigation .prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
+}
+
+.navigation .next {
+  right: 0;
+  border-radius: 0 3px 3px 0;
 }
 
 .dot {
@@ -127,7 +136,7 @@ footer {
 }
 
 /* Style for the text in the header */
-.text {
+.text-overlay {
   color: white;
   font-size: 24px;
   position: absolute;
