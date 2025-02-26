@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     prev.addEventListener("click", prevSlide);
     next.addEventListener("click", nextSlide);
 
-    setInterval(nextSlide, 3000); // Automatischer Wechsel alle 3 Sekunden
+    setInterval(nextSlide, 10000); // Automatischer Wechsel alle 3 Sekunden
 
     showSlide(slideIndex); // Zeige das erste Bild beim Laden der Seite
 });
