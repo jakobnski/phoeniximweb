@@ -25,6 +25,12 @@ nav {
     background-color: #810a1a; /* Hntergrundfarbe der Navigation */
 }
 
+navblue {
+    display: flex;
+    justify-content: center; /* Navigation horizontal zentrieren */
+    background-color: #003056; /* Hntergrundfarbe der Navigation */
+}
+
 /* Stile für die Links in der Navigation */
 nav a {
     color: #ffffff; /* Textfarbe der Links */
