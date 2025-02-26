@@ -56,7 +56,7 @@ footer {
 .slideshow-container {
   position: relative;
   width: 100%;
-  height: 300px; /* Maximalhöhe für den Header festlegen */
+  max-height: 300px; /* Maximalhöhe für den Header festlegen */
   overflow: hidden; /* Verhindert, dass Bilder über die maximale Höhe hinaus angezeigt werden */
 }
 
@@ -73,6 +73,7 @@ footer {
   height: 100%;
   object-fit: cover; /* Bilder vollständig in die Box einpassen */
   overflow: hidden;
+  max-height:inherit;
 }
 
 /* Verbleibender CSS-Code bleibt unverändert */
