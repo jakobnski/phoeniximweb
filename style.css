@@ -51,3 +51,59 @@ footer {
     position: flex; /* Fußbereich am unteren Bildschirmrand fixieren */
     bottom: 0; /* Am unteren Rand des Fensters platzieren */
 }
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides img{
+    width 100%
+    display: none;
+}
+
+.slides img.active{
+    display: block;
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.nav {
+    background-color: #ffffff;
+    border: none;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: white;
+}
